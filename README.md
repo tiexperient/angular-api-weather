@@ -24,12 +24,9 @@ Ah, e como sou apaixonada por detalhes, a interface se ajusta conforme o clima d
 
 ## 🚀 Tecnologias Utilizadas
 
-**Angular 14.0.0**<br>
-
+**Angular CLI 14.0.0**<br>
 **TypeScript**<br>
-
 **HTML & CSS**<br>
-
 **API OpenWeatherMap**
 <br><br>
 
