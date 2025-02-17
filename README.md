@@ -36,6 +36,7 @@ Ah, e como sou apaixonada por detalhes, a interface se ajusta conforme o clima d
 ## 🔄 Como Funciona
 
 O **Angular Weather** busca os dados da API OpenWeatherMap e os exibe de forma organizada e responsiva. A previsão muda conforme a resolução do dispositivo, garantindo melhor usabilidade tanto em **desktop** quanto em **mobile.**
+<br><br>
 
 ## 🌍 Acesse Agora
 
