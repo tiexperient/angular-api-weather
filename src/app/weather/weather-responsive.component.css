@@ -1,0 +1,20 @@
+/* Celular Retrato */
+@media (max-width:600px) and (orientation: portrait) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+}
+
+/* Tablet Retrato */
+@media (min-width: 601px) and (max-width: 800px) and (orientation: portrait) {
+
+}
+
+/* Tablet Paisagem */
+@media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
