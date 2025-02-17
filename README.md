@@ -47,10 +47,8 @@ O **Angular Weather** busca os dados da API OpenWeatherMap e os exibe de forma o
 📢  Explore meu blog, onde compartilho meus aprendizados, experiências e códigos:[Meu Blog Pessoal](https://tiexperient-blog.netlify.app/) 
 <br><br>
 
-## Running end-to-end tests
+## 💪 Contribua
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Fique à vontade para explorar, sugerir melhorias ou até mesmo contribuir para o projeto. Todo feedback é bem-vindo!
+<br>
+Criado com dedicação e amor pelo desenvolvimento por **Célia Medeiros** 💛🚀
