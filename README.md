@@ -50,5 +50,5 @@ O **Angular Weather** busca os dados da API OpenWeatherMap e os exibe de forma o
 ## 💪 Contribua
 
 Fique à vontade para explorar, sugerir melhorias ou até mesmo contribuir para o projeto. Todo feedback é bem-vindo!
-<br>
+<br><br>
 Criado com dedicação e amor pelo desenvolvimento por **Célia Medeiros** 💛🚀
