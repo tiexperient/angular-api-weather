@@ -1,22 +1,50 @@
-# Weather
+# Angular Weather - Previsão do Tempo ☁⛈☀️
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+Bem-vindo(a) ao **Angular Weather!**
+Este aplicativo exibe a previsão do tempo em **Brasília** de forma dinâmica e responsiva. Desenvolvi este projeto para fornecer uma experiência intuitiva e visualmente adaptável ao clima da região.
+<br>
+Ah, e como sou apaixonada por detalhes, a interface se ajusta conforme o clima de Brasília – nada de ilustrações de praia aqui, pois sabemos que o clima da nossa capital é bem mais desértico! 😉
+<br><br>
 
-## Development server
+## 🛠️ Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+✅ Previsão do tempo **atual** e dos **próximos dias** com base na API da OpenWeatherMap.<br>
+✅ Exibição diferenciada no **desktop** (próximos 4 dias) e **responsivo** (próximos 3 dias).<br>
+✅ Tradução dos dados da API para uma experiência mais natural.<br>
+✅ Imagem de fundo adaptável aos diferentes estados do tempo:<br>
 
-## Code scaffolding
+☀️ **Claro**<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+☁ **Nublado**<br>
 
-## Build
+☔️ **Chuva**<br>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+⛈ **Tempestade**
+<br><br>
 
-## Running unit tests
+## 🚀 Tecnologias Utilizadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Angular 14.0.0**<br>
+
+**TypeScript**<br>
+
+**HTML & CSS**<br>
+
+**API OpenWeatherMap**
+<br><br>
+
+## 🔄 Como Funciona
+
+O **Angular Weather** busca os dados da API OpenWeatherMap e os exibe de forma organizada e responsiva. A previsão muda conforme a resolução do dispositivo, garantindo melhor usabilidade tanto em **desktop** quanto em **mobile.**
+
+## 🌍 Acesse Agora
+
+🌍 O projeto já está online! Experimente aqui: **Angular Weather** aqui: [DISC](https://tiexperient-weather.netlify.app/)
+
+👩🏼‍💻 Quer conhecer mais sobre o meu trabalho? Confira o portfólio: [Meu Portfólio Profissional](https://ti-experient.netlify.app/)
+
+📢  Explore meu blog, onde compartilho meus aprendizados, experiências e códigos:[Meu Blog Pessoal](https://tiexperient-blog.netlify.app/) 
+<br><br>
 
 ## Running end-to-end tests
 
