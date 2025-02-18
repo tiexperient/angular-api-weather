@@ -12,6 +12,13 @@
     }
 }
 
+/* Celular Paisagem */
+@media (max-width:800px) and (orientation: landscape) {
+    .info-side {
+        float: center;
+    }
+}
+
   
 
 /* Tablet Retrato */
@@ -23,3 +30,4 @@
 @media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
 
 }
+
