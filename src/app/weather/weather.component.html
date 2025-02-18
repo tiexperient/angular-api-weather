@@ -42,7 +42,7 @@
       <div class="week-container">
         <ul class="week-list ">
 
-          <li class="mobile" style="display: none;" 
+          <li class="mobile" 
           *ngFor="let forecast of forecastDataNext3Days; let i = index">
             <i class="day-icon" [attr.data-feather]="getWeatherIcon(forecast.weather[0].description)"></i>
             <span class="day-name">{{ getNextDays()[i] }}</span>

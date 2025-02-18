@@ -1,8 +1,9 @@
 /* Celular Retrato */
 @media (max-width:600px) and (orientation: portrait) {
-  /*  .mobile {
-        display: block;
+    .mobile {
+        display: none;
     }
+    /*
     .desktop {
         display: none;
     }*/
@@ -14,8 +15,22 @@
 
 /* Celular Paisagem */
 @media (max-width:800px) and (orientation: landscape) {
-    .info-side {
+   /* .info-side {
         float: center;
+    }*/
+
+    .week-list {
+        padding: 0;
+        margin: 10px 5px;
+        margin-left: 5px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
     }
 }
 
