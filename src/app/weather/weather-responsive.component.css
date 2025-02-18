@@ -7,9 +7,8 @@
         display: none;
     }*/
 
-    .week-container {
-        display: grid;
-        justify-content: space-between;
+    .week-list>li {
+        padding: 25px;
     }
 }
 
