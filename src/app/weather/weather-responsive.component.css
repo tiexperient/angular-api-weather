@@ -7,6 +7,17 @@
     .desktop {
         display: none;
     }
+
+    .week-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Colunas dinâmicas */
+        gap: 10px; /* Espaçamento entre os itens */
+        justify-content: center; /* Centraliza os itens */
+        align-items: center; /* Alinha verticalmente */
+        list-style: none;
+        padding: 0;
+        text-align: center; /* Centraliza o texto */
+      }
 }
 
 /* Tablet Retrato */
