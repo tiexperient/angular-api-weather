@@ -49,7 +49,7 @@
             <span class="day-temp">{{ forecast.main.temp }}°C</span>
           </li>
       
-          <li class="desktop"
+          <li class="desktopww"
            *ngFor="let forecast of forecastData; let i = index">
             <i class="day-icon" [attr.data-feather]="getWeatherIcon(forecast.weather[0].description)"></i>
             <span class="day-name">{{ getNextDays()[i] }}</span>
