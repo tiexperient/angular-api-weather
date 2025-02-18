@@ -1,24 +1,14 @@
 /* Celular Retrato */
 @media (max-width:600px) and (orientation: portrait) {
-    .mobile {
+  /*  .mobile {
         display: block;
     }
-
     .desktop {
         display: none;
-    }
-
-    .week-list {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Colunas dinâmicas */
-        gap: 10px; /* Espaçamento entre os itens */
-        justify-content: center; /* Centraliza os itens */
-        align-items: center; /* Alinha verticalmente */
-        list-style: none;
-        padding: 0;
-        text-align: center; /* Centraliza o texto */
-      }
+    }*/
 }
+
+  
 
 /* Tablet Retrato */
 @media (min-width: 601px) and (max-width: 800px) and (orientation: portrait) {
