@@ -20,7 +20,36 @@ export class WeatherComponent implements OnInit {
   ngOnInit() {
     this.getWeather();
   }
-
+/************************************************************************************************************** */
+  getWeather() {
+    this.http.get(`https://api.openweathermap.org/data/2.5/forecast?q=${this.city}&units=metric&appid=${this.apiKey}`)
+      .subscribe((data: any) => {
+        this.weatherData = this.getClosestForecast(data.list); // Agora pegamos a previsão mais próxima da hora atual
+        this.forecastData = this.filterForecastData(data.list);
+        this.forecastDataNext3Days = this.filterForecastDataNext3Days(data.list);
+        setTimeout(() => feather.replace(), 100);
+      });
+  }
+  
+  // Método para pegar a previsão mais próxima da hora atual
+  getClosestForecast(data: any[]): any {
+    const now = new Date();
+    let closest = data[0]; // Assume o primeiro como o mais próximo inicialmente
+    let minDiff = Math.abs(new Date(closest.dt * 1000).getTime() - now.getTime());
+  
+    for (const forecast of data) {
+      const forecastTime = new Date(forecast.dt * 1000).getTime();
+      const diff = Math.abs(forecastTime - now.getTime());
+  
+      if (diff < minDiff) {
+        closest = forecast;
+        minDiff = diff;
+      }
+    }
+  
+    return closest;
+  } 
+/*
   getWeather() {
     this.http.get(`https://api.openweathermap.org/data/2.5/forecast?q=${this.city}&units=metric&appid=${this.apiKey}`)
       .subscribe((data: any) => {
@@ -30,7 +59,7 @@ export class WeatherComponent implements OnInit {
         setTimeout(() => feather.replace(), 100); // Substitui os ícones
       });
   }
-
+*/
   filterForecastData(data: any[]): any[] {
     const forecastDays: any[] = [];
     let lastDate: string | null = null;
