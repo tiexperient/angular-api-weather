@@ -6,6 +6,11 @@
     .desktop {
         display: none;
     }*/
+
+    .week-container {
+        display: grid;
+        justify-content: space-between;
+    }
 }
 
   
