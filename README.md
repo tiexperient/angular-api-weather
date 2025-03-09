@@ -40,7 +40,7 @@ O **Angular Weather** busca os dados da API OpenWeatherMap e os exibe de forma o
 🌍 O projeto já está online! Experimente aqui: [Angular Weather](https://tiexperient-weather.netlify.app/)
 
 👩🏼‍💻 Quer conhecer mais sobre o meu trabalho? Confira o portfólio: [Meu Portfólio Profissional](https://ti-experient.netlify.app/)
-<br>
+<br><br>
 📢  Explore meu blog, onde compartilho meus aprendizados, experiências e códigos: [Meu Blog Pessoal](https://tiexperient-blog.netlify.app/) 
 <br><br>
 
